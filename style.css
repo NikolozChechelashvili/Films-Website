@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url(./images/mtavari.png);
+  background-size: contain;
+  background-color: #fff;
+}
+.conteiner-main {
+  width: 100%;
+  height: 100px;
+  padding-top: 3.8%;
+  padding-right: 9%;
+  padding-left: 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.conteiner-navigation {
+  align-items: center;
+}
+.list {
+  height: 32px;
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  list-style: none;
+  /* flex-direction: row; */
+  display: flex;
+  gap: 32px;
+}
+.conteiner-text {
+  margin-top: 6.8%;
+  margin-left: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 650px;
+  height: 278px;
+  border: 2px solid #fff;
+}
+.textdiv {
+  padding: 40px;
+}
+.texth1 {
+  color: #fff;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-family: Josefin Sans;
+}
+.conteiner-middle {
+  margin-left: 9%;
+  margin-top: 27%;
+  display: flex;
+  align-items: center;
+}
+.fototext {
+  position: relative;
+}
+.foto1 {
+  width: 28.7%;
+  height: 33.81%;
+  background-color: #ffffff;
+  display: flex;
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 10.98%;
+}
+.conteiner-textonphoto {
+  margin-left: 17.8%;
+  margin-top: 11.5%;
+}
+.conteiner-textonphoto > h1 {
+  margin-bottom: 25px;
+  color: #000;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+p {
+  width: 77.2%;
+  opacity: 0.4994;
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.conteiner-films {
+  margin-top: 188px;
+  width: 100%;
+  height: 48px;
+  padding-top: 3.8%;
+  padding-right: 9%;
+  padding-left: 9%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.h1our {
+  width: 445px;
+  color: #000;
+  font-family: Josefin Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+.buttondiv {
+  width: 157px;
+  height: 40px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttondiv > h4 {
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.conteiner-allfilmphotos {
+  margin-top: 84px;
+  /* width: 100%; */
+  padding-top: 3.8%;
+  padding-right: 9%;
+  padding-left: 9%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.conteiner-allfilmphotos100 {
+  /* width: 100%; */
+  padding-top: 30px;
+  padding-right: 9%;
+  padding-left: 9%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.last-footer {
+  margin-top: 184px;
+  padding-right: 9%;
+  padding-left: 9%;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #000;
+}
+
+.boloboloh5 {
+  color: #fff;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.5;
+  margin-top: 20px;
+}
+.newfont {
+  color: #000;
+  font-family: Josefin Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px;
+  text-transform: uppercase;
+}
